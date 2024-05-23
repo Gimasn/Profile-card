@@ -1,0 +1,98 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  height: 400px;
+  margin: 50% auto;
+  width: 310px;
+  text-align: center;
+  background-color:rgb(50,50,255);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.photo-cover {
+  background: url("cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 150px;
+width: 100%;
+}
+
+img {
+  width: 100px;
+  border-radius: 100%;
+  border: 5px solid rgb(50,50,255) ;
+  position: relative;
+right: 90px;
+top: 95px;
+}
+
+
+.profile-name {
+  position: relative;
+  left: 60px;
+  top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.about {
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-top: 60px;
+}
+
+
+.mesage {
+
+background-color: skyblue;
+border: 5px solid skyblue;
+padding: 5px 8px;
+border-radius:5px;
+  transition: .2s all ease;
+  text-transform: uppercase;
+
+}
+
+.mesage:active{
+  
+  transition: .2s all ease;
+  box-shadow: 0px 0px 30px skyblue;
+  
+}
+
+
+.follow {
+padding: 7px 8px;
+  background: transparent;
+  border: 2px solid skyblue;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: .2s all ease;
+  text-transform: uppercase;
+}
+
+
+.follow:active{
+  transition: .2s all ease;
+  background-color: skyblue;
+}
+
+.about,.profile-name {
+  color: white;
+}
+.mesage {
+  
+  font-weight: bold;
+  color: blue;
+}
+
+.follow {
+  font-weight: bold;
+}
